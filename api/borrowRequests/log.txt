@@ -1,0 +1,10 @@
+{"request_id":"22","status":"rejected"}Input: {"request_id":"23","status":"approved"}
+Update successful for ID 23
+Input: {"request_id":"24","status":"rejected"}
+Update successful for ID 24
+Input: {"request_id":"25","status":"rejected"}
+Update successful for ID 25
+Input: {"request_id":"26","status":"rejected"}
+Update successful for ID 26
+Input: {"request_id":"27","status":"rejected"}
+Update successful for ID 27

@@ -1,0 +1,95 @@
+.main-content {
+    padding: 20px;
+    margin-left: 260px;
+}
+
+.page-title {
+    font-size: 24px;
+    color: #2b6777;
+    margin-bottom: 20px;
+}
+
+.stats-container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.stat-box {
+    flex: 1;
+    background: #2b6777;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.stat-box h3 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.stat-box p {
+    font-size: 16px;
+}
+
+.section-title {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.styled-table th {
+    background-color: #2b6777;
+    color: white;
+}
+
+canvas {
+    width: 100%;
+    max-height: 350px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #2b6777;
+    color: white;
+    position: fixed;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #1f4e5f;
+}
