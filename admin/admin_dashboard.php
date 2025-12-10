@@ -13,7 +13,7 @@ $user_role = $_SESSION['role'];
 // Fetch total books
 $totalBooksQuery = "SELECT COUNT(*) AS total_books FROM books";
 $totalBooks = $conn->query($totalBooksQuery)->fetch_assoc()['total_books'];
-
+ 
 // Fetch borrowed books count
 if ($user_role === "admin") {
     $booksBorrowedQuery = "SELECT COUNT(*) AS books_borrowed FROM borrow_requests WHERE status = 'approved'";
