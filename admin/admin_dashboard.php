@@ -7,7 +7,7 @@ if (!isset($_SESSION['user_id'])) {
 
 include '../db/connect.php';
 
-$user_id = $_SESSION['user_id'];
+$user_id = $_SESSION['user_id']; 
 $user_role = $_SESSION['role'];
 
 // Fetch total books
